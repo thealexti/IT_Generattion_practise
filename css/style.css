@@ -1,3 +1,27 @@
 * {
     font-family: Helvetica bold
 }
+
+.parent {
+    background-image: url(/img/img_1.jpg);
+    position: absolute;
+    object-fit: cover;
+}
+
+.block_1 {
+    position: relative;
+    width: 70vw;
+    height: 10vw;
+    top: 150px;
+    left: 150px;
+    border: solid 3px #0844a4 ;
+    text-align: center;
+    color: #0844a4;
+}
+
+button {
+    background-color: #0844a4;
+    color: white;
+    border: solid 1px black;
+    border-radius: 3px;
+}
