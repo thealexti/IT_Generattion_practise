@@ -125,16 +125,16 @@ button {
 .Experience_block {
   display: flex;
   flex-direction: row;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 hr {
-  justify-content:center ;
+  justify-content: center;
   width: 50%;
 }
 
 .Experience_blocks {
-  border: 1px solid #5c5e61 ;
+  border: 1px solid #5c5e61;
   width: 35%;
 }
 
@@ -193,30 +193,39 @@ hr {
 /* (A) PIE CHART */
 .donut {
   /* (A1) CIRCLE */
- width: 300px;
- height: 300px;
- border-radius: 9999px;
- border: 2px solid black;
- background: conic-gradient(
-  red 0%, red 40%,
-  black 40%, black 40.3%,
-  yellow 40%, yellow 50%,
-  black 50%, black 50.3%,
-  green 50%, green 70%,
-  black 70%, black 70.3%,
-  blue 70%, blue 99.7%,
-  black 99.7%, black 100%
- );
+  width: 300px;
+  height: 300px;
+  border-radius: 9999px;
+  border: 2px solid black;
+  background: conic-gradient(
+    red 0%,
+    red 40%,
+    black 40%,
+    black 40.3%,
+    yellow 40%,
+    yellow 50%,
+    black 50%,
+    black 50.3%,
+    green 50%,
+    green 70%,
+    black 70%,
+    black 70.3%,
+    blue 70%,
+    blue 99.7%,
+    black 99.7%,
+    black 100%
+  );
 }
 /* (B) DONUT "CONVERSION" */
 /* (B1) SMALLER CIRCLE */
 .hole {
-  width: 180px; height: 180px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   background: white;
-  border: 2px solid black
+  border: 2px solid black;
 }
- 
+
 /* (B2) "CONVERT PIE TO DONUT" - CENTER SMALLER CIRCLE */
 .donut {
   display: flex;
