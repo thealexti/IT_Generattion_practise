@@ -104,7 +104,7 @@ button {
   text-decoration: none;
   font-size: x-large;
   font-weight: bold;
-  padding-top: 10px;
+  padding: 10px 30px 10px 0;
 }
 
 .parent_2 {
@@ -190,9 +190,7 @@ hr {
   background-color: green;
 }
 
-/* (A) PIE CHART */
 .donut {
-  /* (A1) CIRCLE */
   width: 300px;
   height: 300px;
   border-radius: 9999px;
@@ -216,8 +214,7 @@ hr {
     black 100%
   );
 }
-/* (B) DONUT "CONVERSION" */
-/* (B1) SMALLER CIRCLE */
+
 .hole {
   width: 180px;
   height: 180px;
@@ -226,9 +223,30 @@ hr {
   border: 2px solid black;
 }
 
-/* (B2) "CONVERT PIE TO DONUT" - CENTER SMALLER CIRCLE */
 .donut {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.Interests img {
+  width: 300px;
+  height: 150px;
+}
+
+.Interest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Interest_1_text {
+  padding-right: 70px;
+  width: 20%;
+}
+
+.Interest_2_text {
+  padding-left: 70px;
+  width: 20%;
 }
