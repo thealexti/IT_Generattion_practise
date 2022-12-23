@@ -7,6 +7,10 @@ h1 {
   color: #0844a4;
 }
 
+p {
+  color: #606060;
+}
+
 .parent_1 {
   /* bg */
   height: 100vh;
@@ -27,19 +31,21 @@ h1 {
 }
 
 .block_1 {
-  width: 40vw;
-  height: 20vh;
+  width: 60vw;
+  height: 30vh;
 
   border: solid 3px #0844a4;
   text-align: center;
   color: #0844a4;
 }
 
-button {
+.block_1 button {
   background-color: #0844a4;
   color: white;
   border: solid 1px black;
   border-radius: 3px;
+  width: 17vh;
+  height: 8vh;
 }
 
 #navlist li {
@@ -128,8 +134,8 @@ button {
   justify-content: space-around;
 }
 
-hr {
-  justify-content: center;
+.Experience_block hr {
+  align-content: center;
   width: 50%;
 }
 
@@ -249,4 +255,140 @@ hr {
 .Interest_2_text {
   padding-left: 70px;
   width: 20%;
+}
+
+.Get_in_touch_about_why {
+  display: flex;
+  justify-content: center;
+}
+
+.Get_in_touch p {
+  width: 70%;
+  align-content: center;
+}
+
+.Get_in_touch_form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.Get_in_touch_message {
+  height: 10vh;
+  width: 80%;
+  margin-bottom: 2vh;
+}
+
+.Get_in_touch_email {
+  height: 3vh;
+  width: 30%;
+  margin: 2vh;
+}
+
+.Get_in_touch_name {
+  height: 3vh;
+  width: 30%;
+  margin: 2vh;
+}
+
+.Get_in_touch_button {
+  height: 4vh;
+  width: 16%;
+  margin: 2vh;
+  background-color: #0844a4;
+  color: white;
+  border: solid 1px black;
+  border-radius: 2px;
+}
+
+.Get_in_touch hr {
+  width: 20%;
+  align-content: center;
+}
+
+.Get_in_touch ul {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 6vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Get_in_touch ul li {
+  list-style: none;
+}
+
+.Get_in_touch ul li a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: 0.5s;
+}
+
+.Get_in_touch ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.Get_in_touch ul li a .fab {
+  widht: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: 0.5s;
+}
+
+.Get_in_touch ul li:nth-child(1) a:hover .fab {
+  color: #3b5998;
+}
+
+.Get_in_touch ul li:nth-child(2) a:hover .fab {
+  color: #00aced;
+}
+
+.Get_in_touch ul li:nth-child(3) a:hover .fab {
+  color: #dd4b39;
+}
+
+.Get_in_touch ul li:nth-child(4) a:hover .fab {
+  color: #007bb6;
+}
+
+.Get_in_touch ul li:nth-child(5) a:hover .fab {
+  color: #e4405f;
+}
+
+.Company_name_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo {
+  width: 3vh;
+  height: 3vh;
+  margin: 2vh;
+}
+
+.Company_name_block p {
+  width: 10%;
 }

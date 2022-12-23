@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e0bb6c3bc1.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Landing Page</title>
   </head>
   <body>
@@ -18,20 +22,17 @@
     <div class="parent_2">
       <ul id="navlist">
         <li><a href="#About">About</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Interest's</a></li>
-        <li class="last"><a href="#">Get in touch</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Interests">Interest's</a></li>
+        <li class="last"><a href="#Get_in_touch">Get in touch</a></li>
       </ul>
       <div>
-        <h1>About</h1>
+        <h1 id="About">About</h1>
       </div>
-      <div class="About">
         <div class="About_photo">
           <img src="/img/img_1.jpg" alt="" width="250px" height="300px" />
         </div>
-        <div class="About_text">
-          Who you are? Why are you at the camp? Why us this important to you?
-        </div>
+          <p class="About_text">Who you are? Why are you at the camp? Why us this important to you?</p>
       </div>
       <div class="About_me">
         <div class="About_block">
@@ -81,11 +82,11 @@
           </p>
         </div>
       </div>
-      <div class="To_top"><a href="#">To top</a></div>
+      <div class="To_top"><a href="#About">To top</a></div>
     </div>
     <div>
       <div class="Experience">
-        <h1>Experience</h1>
+        <h1 id="Experience">Experience</h1>
       </div>
       <div class="Experience_block">
         <div class="Experience_blocks">
@@ -128,11 +129,11 @@
           </p>
         </div>
       </div>
-      <div class="To_top"><a href="#">To top</a></div>
+      <div class="To_top"><a href="#About">To top</a></div>
     </div>
     <div class="Interests">
       <div>
-        <h1>Interest's</h1>
+        <h1 id="Interests">Interest's</h1>
       </div>
       <div class="Interest">
         <div>
@@ -161,6 +162,74 @@
         </div>
       </div>
     </div>
-    <div class="To_top"><a href="#">To top</a></div>
+    <div class="To_top"><a href="#About">To top</a></div>
+    <div class="Get_in_touch">
+      <div>
+        <h1 id="Get_in_touch">Get In Touch</h1>
+      </div>
+      <div class="Get_in_touch_about_why">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+          eveniet soluta id, aliquam ab magni laboriosam, sed rem ipsum odit
+          quae mollitia officia quam. Dolor vitae mollitia iste assumenda quod.
+        </p>
+      </div>
+      <form class="Get_in_touch_form" action="">
+        <input
+          type="text"
+          required
+          placeholder="Message"
+          class="Get_in_touch_message"
+        />
+        <input
+          type="email"
+          required
+          placeholder="Email Address"
+          class="Get_in_touch_email"
+        />
+        <input
+          type="text"
+          required
+          placeholder="Full Name"
+          class="Get_in_touch_name"
+        />
+        <button class="Get_in_touch_button" type="button">Send</button>
+      </form>
+      <hr />
+      <div class="Get_in_touch_social">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><i class="fab fa-facebook" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/"
+              ><i class="fab fa-twitter" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/"
+              ><i class="fab fa-google-plus-g" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"
+              ><i class="fab fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><i class="fab fa-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="Company_name_block">
+        <img class="Logo" src="/img/logo.svg" alt="" />
+        <p>Your Company Name</p>
+      </div>
+    </div>
+    <div class="To_top"><a href="#About">To top</a></div>
   </body>
 </html>
