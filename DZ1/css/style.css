@@ -23,7 +23,7 @@ p {
 }
 
 .parent_1:nth-child(1) {
-  background-image: url(/img/img_1.jpg);
+  background-image: url("/DZ1/img/img_1.jpg");
 
   display: flex;
   justify-content: center;
