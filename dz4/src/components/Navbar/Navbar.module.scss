@@ -1,0 +1,39 @@
+.custom_navbar {
+    position: relative;
+
+    &__nav {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+
+        &_item {
+            color: #212121;
+            border: 1px solid transparent;
+            border-radius: 15px 0px;
+            transition: color 0.3s ease, border 0.3s ease;
+
+            &:hover {
+                color: #37806B;
+                border: 1px solid #B0855B;
+                border-radius: 15px 0px;
+            }
+
+            span {
+                color: #646464;
+
+                &:hover {
+                    color: #37806B;
+                }
+            }
+        }
+
+        &_button {
+            width: 97px;
+            height: 31px;
+            background: #CAA892;
+            border-radius: 15px 0px;
+            border: none;
+            color: #FFFFFF;
+        }
+    }
+}
