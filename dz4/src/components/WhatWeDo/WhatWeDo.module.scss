@@ -1,0 +1,26 @@
+@import '../../style/variables.scss';
+
+@import '../../style/mixins.scss';
+
+.what_we_do {
+    font-family: 'Poppins', sans-serif;
+
+    &__subHeading {
+        font-weight: 600;
+        @include adaptive-font(20, 18);
+        letter-spacing: -0.01em;
+        color: $paragraph_color;
+    }
+
+    &__heading {
+        font-weight: 500;
+        @include adaptive-font(48, 30);
+        color: $heading_color;
+    }
+
+    &__dot_img {
+        margin-left: 1350px;
+        width: 245px;
+        height: 254px;
+    }
+}
