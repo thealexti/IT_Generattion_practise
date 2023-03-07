@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "category": "INTERIOR DESIGN",
+    "title": "Kitchen Renovation",
+    "text": "Remodelled kitchen with marble countertops and new cabinets.",
+    "icon": "../../assets/icons/design_1.svg"
+  },
+  {
+    "id": 2,
+    "category": "INTERIOR DESIGN",
+    "title": "Living Room Design",
+    "text": "Contemporary living room with custom-built bookshelves.",
+    "icon": "../../assets/icons/design_1.svg"
+  },
+  {
+    "id": 3,
+    "category": "INTERIOR DESIGN",
+    "title": "Bathroom Remodel",
+    "text": "Renovated bathroom with glass shower and mosaic tile backsplash.",
+    "icon": "../../assets/icons/design_1.svg"
+  },
+  {
+    "id": 4,
+    "category": "INTERIOR DESIGN",
+    "title": "Bedroom Makeover",
+    "text": "Master bedroom with new hardwood floors and modern furnishings.",
+    "icon": "../../assets/icons/design_1.svg"
+  },
+  {
+    "id": 5,
+    "category": "INTERIOR DESIGN",
+    "title": "Dining Room Decor",
+    "text": "Traditional dining room with elegant chandelier and antique table.",
+    "icon": "../../assets/icons/design_1.svg"
+  },
+  {
+    "id": 6,
+    "category": "ARCHITECTURE",
+    "title": "Modern House Design",
+    "text": "Contemporary house with large windows and open floor plan.",
+    "icon": "../../assets/icons/architecture_1.svg"
+  },
+  {
+    "id": 7,
+    "category": "ARCHITECTURE",
+    "title": "Rustic Cabin",
+    "text": "Cozy cabin with stone fireplace and exposed wooden beams.",
+    "icon": "../../assets/icons/architecture_1.svg"
+  },
+  {
+    "id": 8,
+    "category": "ARCHITECTURE",
+    "title": "Beach House",
+    "text": "Coastal home with wraparound porch and ocean views.",
+    "icon": "../../assets/icons/architecture_1.svg"
+  },
+  {
+    "id": 9,
+    "category": "ARCHITECTURE",
+    "title": "Urban Loft",
+    "text": "Spacious loft apartment with industrial-style furnishings.",
+    "icon": "../../assets/icons/architecture_1.svg"
+  },
+  {
+    "id": 10,
+    "category": "ARCHITECTURE",
+    "title": "Mediterranean Villa",
+    "text": "Luxurious villa with outdoor pool and breathtaking views.",
+    "icon": "../../assets/icons/architecture_1.svg"
+  },
+  {
+    "id": 11,
+    "category": "PLANNING",
+    "title": "Site Plan",
+    "text": "Plan for a residential development with parks and walking trails.",
+    "icon": "../../assets/icons/planning_1.svg"
+  },
+  {
+    "id": 12,
+    "category": "PLANNING",
+    "title": "Zoning Map",
+    "text": "Map of a city's zoning districts and land use regulations.",
+    "icon": "../../assets/icons/planning_1.svg"
+  },
+  {
+    "id": 13,
+    "category": "PLANNING",
+    "title": "Transit Plan",
+    "text": "Plan for a new transit system with bus and train routes.",
+    "icon": "../../assets/icons/planning_1.svg"
+  },
+  {
+    "id": 14,
+    "category": "PLANNING",
+    "title": "Master Plan",
+    "text": "Comprehensive plan for the development of a city or region.",
+    "icon": "../../assets/icons/planning_1.svg"
+  },
+  {
+    "id": 15,
+    "category": "PLANNING",
+    "title": "Sustainability Plan",
+    "text": "Plan for implementing environmentally sustainable practices in a community.",
+    "icon": "../../assets/icons/planning_1.svg"
+  }
+]
