@@ -24,8 +24,8 @@ const ScrollProgressBar = () => {
     }, []);
 
     return (
-        <div bsPrefix={s.bar}>
-            <ProgressBar now={scrollPosition * 100} variant="custom" className={s.bar__scroll_progress} style={{ '--bs-progress-bar-bg': '#CAA892' }} />
+        <div className={s.bar}>
+            <ProgressBar now={scrollPosition * 100}  className={s.bar__scroll_progress} />
         </div>
     );
 };
