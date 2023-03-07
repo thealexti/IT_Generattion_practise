@@ -1,3 +1,7 @@
+@import '../../style/variables.scss';
+
+@import '../../style/mixins.scss';
+
 .custom_navbar {
     position: relative;
 
@@ -7,22 +11,22 @@
         font-size: 16px;
 
         &_item {
-            color: #212121;
+            color: $heading_color;
             border: 1px solid transparent;
             border-radius: 15px 0px;
             transition: color 0.3s ease, border 0.3s ease;
 
             &:hover {
-                color: #37806B;
-                border: 1px solid #B0855B;
+                color: $green_color;
+                border: 1px solid $border_gold_color;
                 border-radius: 15px 0px;
             }
 
             span {
-                color: #646464;
+                color: $paragraph_color;
 
                 &:hover {
-                    color: #37806B;
+                    color: $green_color;
                 }
             }
         }
@@ -30,10 +34,10 @@
         &_button {
             width: 97px;
             height: 31px;
-            background: #CAA892;
+            background: $button_gold_color;
             border-radius: 15px 0px;
             border: none;
-            color: #FFFFFF;
+            color: $white_color;
         }
     }
 }
