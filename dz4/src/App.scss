@@ -1,5 +1,11 @@
 @import-normalize;
 
-@import 'fonts';
+@import './style/fonts.scss';
 
-@import 'custom';
+@import './style/custom.scss';
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
