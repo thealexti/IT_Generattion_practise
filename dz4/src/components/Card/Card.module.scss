@@ -1,0 +1,24 @@
+@import '../../style/variables.scss';
+
+@import '../../style/mixins.scss';
+
+.what_we_do {
+    &__btn {
+        width: 206.67px;
+        height: 46.04px;
+        background: $green_color;
+        border-radius: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        @include adaptive-font (16, 13);
+        color: $white_color;
+        border: none;
+
+        &:hover {
+            color: $green_color;
+            background-color: $white_color;
+            border: 5px solid $green_color;
+            border-radius: 20px;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+@import '../../style/variables.scss';
+
+@import '../../style/mixins.scss';
+
+.wrapper {
+    background: #F8F8F8;
+    margin-bottom: 133px;
+}
+
+.completedWork {
+    &__row {
+        height: 250px;
+    }
+
+    &__heading {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        @include adaptive-font (48, 30);
+        line-height: 125%;
+        color: $heading_color;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+        height: 185px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 40px 0px;
+    }
+
+    &__card_heading {
+        font-weight: 700;
+        @include adaptive-font (50, 40);
+        line-height: 120%;
+        color: $heading_color;
+    }
+
+    &__card_paragraph {
+        font-weight: 700;
+        @include adaptive-font (15, 10);
+        line-height: 120%;
+        color: $paragraph_color;
+    }
+
+    &__vector {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+}

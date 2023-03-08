@@ -14,9 +14,6 @@ const WhatWeDo = () => {
                     </Col>
                 </Row>
                 <Card />
-                <Row>
-                    <img className={s.what_we_do__dot_img} src={dot_img_1} alt="" />
-                </Row>
             </Container>
         </div >
     );

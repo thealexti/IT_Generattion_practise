@@ -4,6 +4,10 @@
 
 .what_we_do {
     font-family: 'Poppins', sans-serif;
+    background-image: url(../../assets/images/dot_1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 300px;
 
     &__subHeading {
         font-weight: 600;
@@ -16,11 +20,5 @@
         font-weight: 500;
         @include adaptive-font(48, 30);
         color: $heading_color;
-    }
-
-    &__dot_img {
-        margin-left: 1350px;
-        width: 245px;
-        height: 254px;
     }
 }

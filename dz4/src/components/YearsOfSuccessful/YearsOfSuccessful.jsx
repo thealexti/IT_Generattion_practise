@@ -14,7 +14,7 @@ const YearsOfSuccessful = () => {
                         <h1 className={` mb-5 ${s.YearsOfSuccessful__heading}`}>Years Of Successful<br />Working<br />The MarketInterior</h1>
                         <button className={` d-flex align-items-center justify-content-center ${s.YearsOfSuccessful__btn}`} type='button'>CONTACT</button>
                     </Col>
-                    <Col className='col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 '>
+                    <Col className='col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
                         <div className={s.YearsOfSuccessful__img_right}>
                             <img src={interior_img} alt="interior" />
                         </div>
