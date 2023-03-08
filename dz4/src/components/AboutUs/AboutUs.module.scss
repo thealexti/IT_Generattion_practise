@@ -1,0 +1,70 @@
+@import '../../style/variables.scss';
+
+@import '../../style/mixins.scss';
+
+
+.about_us {
+    font-family: 'Poppins', sans-serif;
+
+    &__img_left {
+        position: relative;
+        max-width: 714px;
+
+        &::after {
+            border: 2px solid $border_gold_color;
+            content: '';
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            right: 30px;
+            bottom: 30px;
+            border-radius: 140px 0;
+            z-index: -1;
+        }
+
+        img {
+            border-radius: 140px 0px;
+        }
+    }
+
+    &__subheading {
+        font-weight: 600;
+        @include adaptive-font(20, 18);
+        color: $paragraph_color;
+    }
+
+    &__heading {
+        font-weight: 600;
+        @include adaptive-font(48, 30);
+        line-height: 108%;
+        color: $heading_color;
+    }
+
+    &__text {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        @include adaptive-font(18, 16);
+        line-height: 167%;
+        color: $paragraph_color;
+    }
+
+    &__btn {
+        width: 149px;
+        height: 47px;
+        background: $green_color;
+        border-radius: 20px 0px;
+        border: none;
+        font-weight: 700;
+        @include adaptive-font(18, 16);
+        color: #FFFFFF;
+    }
+
+
+    &__dot_img {
+        margin-top: 75px;
+        margin-left: -60px;
+        width: 212px;
+        height: 150px;
+    }
+}
